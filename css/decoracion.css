@@ -1,0 +1,192 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(173, 216, 230, 0.9);
+    color: #2e8b57; /* Verde oscuro */
+}
+
+/* Estilos del encabezado */
+.inicio {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    margin: 0;
+}
+
+.bloque {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; 
+    height:auto ;
+    margin-right: 100px; 
+}
+
+.inicio__accesos {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inicio__accesos li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.inicio__accesos li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.resultados {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes {
+    width: 60px; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+.nombre_redes{
+    background-color: #333;
+    color: aliceblue;
+}
+
+/* parte de nosotros*/
+
+.nosotros_nosotros {
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 70vh; 
+    background-color: rgba(173, 216, 230, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros_caja_nosotros {
+    width: 40%; 
+    max-width: 800px; 
+    padding: 20px;
+    text-align: center; 
+    border: 2px solid #2e8b57; 
+    border-radius: 10px; 
+    background-color: #f0f8ff; 
+    color: #2e8b57; 
+}
+
+/*parte de precios */
+.precio {
+    background-color: rgba(173, 216, 230, 0.9);
+    list-style: none;
+    padding: 0;
+    height: 70vh; 
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cabana {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.servicio {
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 1fr  ;
+}
+
+.cabana:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+
+.cabana:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.contacto{
+    width: 100%; 
+    max-width: 1500px; 
+    padding: 100px;
+    text-align: center; 
+    border: 2px solid #2e8b57; 
+    border-radius: 10px; 
+    background-color: #f0f8ff; 
+    color: #2e8b57; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.familia{
+
+    width: 30%;
+    object-fit: cover;
+}
+.familia {
+    width: 30%;
+    object-fit: cover; /* Escalar la imagen para cubrir todo el contenedor sin distorsión */
+    display: block; /* Mostrar la imagen como un bloque */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/*imagenes */
+.imagenes_caja {
+    height: auto; /* Cambia la altura para adaptarse al contenido */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); /* Ajusta el número de columnas y el ancho mínimo de las imágenes */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
+.resultados {
+    width: 100%;
+    height: auto;
+}
+
+.texto_imagen {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+}
+

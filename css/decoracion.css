@@ -1,20 +1,447 @@
-/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos generales */
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(173, 216, 230, 0.9);
+        color: #2e8b57; 
+    
+    .inicio {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .titulo {
+        margin: 0;
+    }
+    
+    .bloque {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+    
+    .logo {
+        width: 100px; 
+        height: auto;
+        margin: 0 auto; 
+    }
+    
+    .inicio__accesos {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .inicio__accesos li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    .inicio__accesos li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    
+    .resultados {
+        max-width: 100%; 
+        height: auto; 
+    }
+    
+    .footer {
+        background-color: #333;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 25vh;
+        flex-wrap: wrap;
+    }
+    
+    .redes {
+        width: 60px; 
+        height: auto;
+        margin-right: 20px; 
+    }
+    
+    .nombre_redes{
+        background-color: #333;
+        color: aliceblue;
+    }
+    
+    
+    .nosotros_nosotros {
+        top: 0;
+        left: 0;
+        background-color: rgba(173, 216, 230, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nosotros_caja_nosotros {
+        margin: 0 auto; 
+        padding: 20px;
+        text-align: center;
+        border: 2px solid #2e8b57;
+        border-radius: 10px;
+        background-color: #f0f8ff;
+        color: #2e8b57;
+        box-sizing: border-box; 
+    }
+    
+    .precio {
+        background-color: rgba(173, 216, 230, 0.9);
+        list-style: none;
+        padding: 0;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .cabana {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        
+    }
+    .cabala_imagen{
+        height: auto; 
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        justify-content: center; 
+        gap: 20px; 
+    }
+    
+    .servicio {
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 1fr  ;
+    }
+    
+    .cabana:nth-child(odd) {
+        background-color: #e6e6e6;
+    }
+    
+    .cabana:nth-child(even) {
+        background-color: #f0f0f0;
+    }
+    
+    .contacto{
+        width: 100%; 
+        max-width: 1500px; 
+        padding: 100px;
+        text-align: center; 
+        border: 2px solid #2e8b57; 
+        border-radius: 10px; 
+        background-color: #f0f8ff; 
+        color: #2e8b57; 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: stretch;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .familia{
+    
+        width: 30%;
+        object-fit: cover;
+    }
+    .familia {
+        width: 30%;
+        object-fit: cover; 
+        display: block; 
+        margin: 0 auto; 
+    }
+    
+    .imagenes_caja {
+        height: auto; 
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        justify-content: center; 
+        gap: 20px; 
+    }
+    
+    .resultados {
+        width: 100%;
+        height: auto;
+    }
+    
+    .texto_imagen {
+        text-align: center; 
+        margin-top: 10px; 
+        max-width: 100%; 
+        height: auto;
+    }
+    
+    .inicio {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        height: 25vh; 
+    }
+    
+    .main {
+        background-color: rgba(173, 216, 230, 0.9);
+        color: #2e8b57;
+        padding: 20px;
+        text-align: center;
+        height: 50vh; 
+    }
+    
+    }
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(173, 216, 230, 0.9);
+        color: #2e8b57; 
+    
+    .inicio {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .titulo {
+        margin: 0;
+    }
+    
+    .bloque {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+    
+    .logo {
+        width: 100px; 
+        height: auto;
+        margin: 0 auto; 
+    }
+    
+    .inicio__accesos {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .inicio__accesos li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    .inicio__accesos li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    
+    .resultados {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .footer {
+        background-color: #333;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 25vh;
+        flex-wrap: wrap;
+    }
+    
+    .redes {
+        width: 60px; 
+        height: auto;
+        margin-right: 20px; 
+    }
+    
+    .nombre_redes{
+        background-color: #333;
+        color: aliceblue;
+    }
+    
+    
+    .nosotros_nosotros {
+        top: 0;
+        left: 0;
+        width: 100vw; 
+        height: 70vh; 
+        background-color: rgba(173, 216, 230, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nosotros_caja_nosotros {
+        width: 100%;
+        max-width: 800px; /* Establece un ancho máximo para evitar que el contenido se extienda demasiado en pantallas grandes */
+        margin: 0 auto; /* Centra el elemento horizontalmente */
+        padding: 20px;
+        text-align: center;
+        border: 2px solid #2e8b57;
+        border-radius: 10px;
+        background-color: #f0f8ff;
+        color: #2e8b57;
+        box-sizing: border-box; /* Incluye el padding y el borde en el ancho total del elemento */
+    }
+    
+    .precio {
+        background-color: rgba(173, 216, 230, 0.9);
+        list-style: none;
+        padding: 0;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .cabana {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        
+    }
+
+    .cabala_imagen{
+        height: auto; 
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        justify-content: center; 
+        gap: 20px; 
+    }
+    
+    .servicio {
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 1fr  ;
+    }
+    
+    .cabana:nth-child(odd) {
+        background-color: #e6e6e6;
+    }
+    
+    .cabana:nth-child(even) {
+        background-color: #f0f0f0;
+    }
+    
+    .contacto{
+        width: 100%; 
+        max-width: 1500px; 
+        padding: 100px;
+        text-align: center; 
+        border: 2px solid #2e8b57; 
+        border-radius: 10px; 
+        background-color: #f0f8ff; 
+        color: #2e8b57; 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: stretch;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .familia{
+    
+        width: 30%;
+        object-fit: cover;
+    }
+    .familia {
+        width: 30%;
+        object-fit: cover; 
+        display: block; 
+        margin: 0 auto; 
+    }
+    
+    .imagenes_caja {
+        height: auto; 
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        justify-content: center; 
+        gap: 20px; 
+    }
+    
+    .resultados {
+        width: 100%;
+        height: auto;
+    }
+    
+    .texto_imagen {
+        text-align: center; 
+        margin-top: 10px; 
+    }
+    
+    .inicio {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        height: 25vh; 
+    }
+    
+    .main {
+        background-color: rgba(173, 216, 230, 0.9);
+        color: #2e8b57;
+        padding: 20px;
+        text-align: center;
+        height: 50vh; 
+    }
+    
+    }
+}
+
+
+@media only screen and (min-width: 800px)  {
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: rgba(173, 216, 230, 0.9);
-    color: #2e8b57; /* Verde oscuro */
-}
+    color: #2e8b57; 
 
-/* Estilos del encabezado */
 .inicio {
     background-color: #333;
     color: #fff;
@@ -60,7 +487,6 @@ body {
     height: auto;
 }
 
-/* Estilos del pie de página */
 .footer {
     background-color: #333;
     padding: 10px;
@@ -82,7 +508,6 @@ body {
     color: aliceblue;
 }
 
-/* parte de nosotros*/
 
 .nosotros_nosotros {
     top: 0;
@@ -96,7 +521,6 @@ body {
 }
 
 .nosotros_caja_nosotros {
-    width: 40%; 
     max-width: 800px; 
     padding: 20px;
     text-align: center; 
@@ -106,15 +530,13 @@ body {
     color: #2e8b57; 
 }
 
-/*parte de precios */
 .precio {
     background-color: rgba(173, 216, 230, 0.9);
     list-style: none;
     padding: 0;
-    height: 70vh; 
     margin-bottom: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -124,6 +546,15 @@ body {
     margin-bottom: 10px;
     border-radius: 5px;
     
+}
+.cabala_imagen {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: center;
+    gap: 20px;
+}
 }
 
 .servicio {
@@ -165,19 +596,18 @@ body {
 }
 .familia {
     width: 30%;
-    object-fit: cover; /* Escalar la imagen para cubrir todo el contenedor sin distorsión */
-    display: block; /* Mostrar la imagen como un bloque */
-    margin: 0 auto; /* Centrar horizontalmente */
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto; 
 }
 
-/*imagenes */
 .imagenes_caja {
-    height: auto; /* Cambia la altura para adaptarse al contenido */
+    height: auto; 
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); /* Ajusta el número de columnas y el ancho mínimo de las imágenes */
-    justify-content: center; /* Centra las imágenes horizontalmente */
-    gap: 20px; /* Espacio entre las imágenes */
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); 
+    justify-content: center; 
+    gap: 20px; 
 }
 
 .resultados {
@@ -186,7 +616,35 @@ body {
 }
 
 .texto_imagen {
-    text-align: center; /* Centra el texto horizontalmente */
-    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    text-align: center; 
+    margin-top: 10px; 
 }
 
+.inicio {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 25vh; 
+}
+
+.main {
+    background-color: rgba(173, 216, 230, 0.9);
+    color: #2e8b57;
+    padding: 20px;
+    text-align: center;
+    height: 50vh; 
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh; 
+}
+}
+}
